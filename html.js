@@ -1,10 +1,15 @@
+
 import express from"express"
 
 import path from "path";
 
 const app=express();
  const absPath =path.resolve('html')
+ const cssPath=path.resolve('cssFile')
 
+ app.use(express.static(cssPath));
+ console.log(cssPath);
+ 
 app.get('/',(req,res)=>{
 //  const absPath =path.resolve('html/home.html')
 // res.sendFile(absPath)

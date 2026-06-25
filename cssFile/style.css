@@ -1,0 +1,15 @@
+
+        h1{
+            color: teal ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        a{
+            color: skyblue ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
